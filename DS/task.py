@@ -191,15 +191,24 @@ lst = [2,3,2,4,3,5,5]
 
 # optimized approach inplace
 
-lst2 = [2,4,0,1,0,2,0,4,3,0]
-index = 0
-for i in range(len(lst2)):
-    if lst2[i] != 0:
-        lst2[index] = lst2[i]
-        index += 1
-for i in range(index, len(lst2)):
-    lst2[i] = 0
-print("list after moving zeros to end:",lst2)
+# lst2 = [2,4,0,1,0,2,0,4,3,0]
+# index = 0
+# for i in range(len(lst2)):
+#     if lst2[i] != 0:
+#         lst2[index] = lst2[i]
+#         index += 1
+# for i in range(index, len(lst2)):
+#     lst2[i] = 0
+# print("list after moving zeros to end:",lst2)
+
+
+names = ["ram", "shyam", "neha", "rohit"]
+
+count = 0
+for name in names:
+    if 'a' in name:
+        count += 1
+print("Number of names containing 'a':", count)
 
 
 
