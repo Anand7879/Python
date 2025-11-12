@@ -7,13 +7,7 @@ result = set(firstElement)
 for i in range(1, len(list)):
     name = list[i]
     result = result.intersection(set(name))
-    
 print("Common characters in all names:", result)
-
-
-
-
-
 
 
 
